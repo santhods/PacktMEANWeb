@@ -1,3 +1,4 @@
+
 exports.render = function(req, res) {
  if (req.session.recent){
     console.log(req.session.recent);
